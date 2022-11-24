@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+    body {
+        font-family: Calibri, Helvetica, sans-serif;
+        background-color: white;
+        margin: 0 auto;
+        width: 540px;
+        border: 6px inset cornflowerblue;
+        padding: 0 2em 2em 2em;
+        box-shadow: turquoise 20px 20px 20px, cornflowerblue -20px -20px 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: lawngreen;
+        margin-bottom: .25em;
+        text-shadow: green 5px 5px 10px, red -5px -5px 10px, black 1px 1px;
+    }
+
+    table {
+        border-collapse: inherit;
+        border: 2px solid black;
+    }
+
+    td {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 1em;
+        font-family: "Century Gothic", serif;
+        width: 4em;
+        height: 4em;
+        vertical-align: center;
+        padding: 0.25em;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    th {
+        font-family: "Century Gothic", serif;
+        color: green;
+        border: solid black 2px;
+    }
+
+
