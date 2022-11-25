@@ -50,18 +50,3 @@
         color: green;
         border: solid black 2px;
     }
-
-    @media only screen and (max-width: 600px) {
-
-        body {
-            display: flex;
-            width: 470px;
-            margin: 0 auto;
-
-        }
-        table {
-            width: 470px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
