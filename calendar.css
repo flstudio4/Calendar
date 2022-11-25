@@ -14,7 +14,7 @@
         font-family: Calibri, Helvetica, sans-serif;
         background-color: white;
         margin: 0 auto;
-        width: 540px;
+        width: 500px;
         border: 6px inset cornflowerblue;
         padding: 0 2em 2em 2em;
         box-shadow: turquoise 20px 20px 20px, cornflowerblue -20px -20px 20px;
@@ -52,9 +52,16 @@
     }
 
     @media only screen and (max-width: 600px) {
-        table {
-            width: 90%;
+
+        body {
+            display: flex;
+            width: 470px;
             margin: 0 auto;
 
+        }
+        table {
+            width: 470px;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
